@@ -1,0 +1,33 @@
+header {
+    background-color: #111111;
+    min-height: 50px;
+    height: 5vmin;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 300;
+    overflow: hidden;
+    position: fixed;
+    box-shadow: 0 .7rem 1rem rgba(0,0,0,.175);
+}
+
+.icon {
+    color: white;
+    height: 100%;
+    margin: 5px;
+    cursor: pointer;
+    transition: 0.5s;
+    z-index: 1;
+}
+
+.icon:hover {
+    transition: 0.5s;
+    background-color: #414141;
+}
+
+.icon > svg{
+    height: 100%;
+    width: 100%;
+    text-align: center;
+}

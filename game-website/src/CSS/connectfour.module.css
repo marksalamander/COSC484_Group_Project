@@ -1,0 +1,55 @@
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction:column;
+}
+
+.canvasContainer{
+    margin:30px;
+    background-color:blue;
+    border-radius:10px;
+    height: 600px;
+}
+
+.formContainer {
+    margin-top: 5rem;
+    display: flex;
+    flex-direction: row;
+    max-width: 600px;
+    width: 60%;
+    justify-content: space-between;
+    min-height: 80px;
+}
+
+.gameForm {
+    max-width: 320px;
+    min-width: 320px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gameForm input {
+    min-width: 320px;
+}
+
+.labelButton {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    height: 50px;
+}
+
+.gameMove {
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.gameMove > button {
+    margin: 0;
+}
